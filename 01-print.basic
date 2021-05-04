@@ -1,0 +1,18 @@
+Rem --------------------------------------
+Rem "This program is my first BASIC program"
+Rem "Navadita"
+Rem "May 3 2021"
+Rem --------------------------------------
+
+name$ = "Prinsha"
+class = 7
+
+Print "Hi there "; name$;
+Print ""
+Print "Do you study in grade"; class; "?"
+Print ""
+Print "Good night"
+'Print 99
+Rem Print 99.99
+Print "-\_(:/)_/-"
+Print "<3"
