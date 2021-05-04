@@ -1,2 +1,2 @@
 # QBASIC
-Learing Qbasic :)
+Learning Qbasic :)
