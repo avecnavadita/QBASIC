@@ -48,12 +48,17 @@ REM "---------------------------------------"
 ### Print
 
 We use Print to display strings and numbers in the console (output). 
+There are two ways to print in QBASIC.
+
+- PRINT 
+- ?
 
 Example:
 
 ```
 Print "Hi there"
 Print "A quick brown fox jumps over the lazy dog"
+? "Hello!"
 ```
 
 ### Input
@@ -88,13 +93,25 @@ NEXT z
 
 ...
 
-### Character to string
+### String to ASCII code
 
-...
+ASC returns the ASCII code for the first character in a string expression. 
 
-### String to character
+Example:
 
-...
+```
+PRINT ASC("Q")      'Output is:  81   
+PRINT ASC("Apple")  'Output is:  65
+```
+
+### ASCII code to character
+
+Example:
+
+```
+PRINT CHR$(81)      'Output is:  Q   
+PRINT CHR$(97)      'Output is:  a
+```
 
 ### Number to string
 
