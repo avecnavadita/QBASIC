@@ -9,7 +9,7 @@ class = 7
 
 Print "Hi there "; name$;
 Print ""
-Print "Do you study in grade"; class; "?"
+Input "Do you study in grade"; class; "?"
 Print ""
 Print "Good night"
 'Print 99
