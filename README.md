@@ -111,5 +111,5 @@ NEXT z
 
 ## Reference
 
-1: http://pittajarn.lpru.ac.th/~nukit/basic/tutorial_basic.pdf
+1: http://pittajarn.lpru.ac.th/~nukit/basic/tutorial_basic.pdf   
 2: https://www.qbasic.net/en/qbasic-tutorials/beginner/qbasic-beginner-1.htm
