@@ -10,7 +10,7 @@ PRINT "*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-"
 PRINT
 INPUT "Enter the maximum value:"; max
 
-FOR i = max TO 1
+FOR i = max TO 1 STEP -1
     PRINT i;
 NEXT i
 
