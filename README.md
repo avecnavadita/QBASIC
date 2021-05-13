@@ -182,7 +182,7 @@ Print "You entered"; grade
 
 ### Loop
 
-...
+The process of repeating or printing a series of statements as many times as needed.
 
 Example: The following program prints from 1 to 100 in sequence using *FOR loop*
 
