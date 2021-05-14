@@ -5,7 +5,7 @@ REM "---------------------------------"
 INPUT "Enter the minimum value:"; min
 
 FOR z = min TO 100
-    PRINT z;
+    PRINT z; 
 NEXT z
 
 

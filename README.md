@@ -166,6 +166,18 @@ Output :
 Hello
 World
 
+- Space or tab
+
+We can use the `SPACE$()` or `TAB()` to add spaces while printing. The functions take integer parameter and prints the corresponding space in the output.
+
+Example:
+
+```
+FOR I = 1 TO L STEP 1
+    PRINT SPACE$(I); I
+NEXT I
+```
+
 ### Input
 
 Sometimes we need to ask for certain input from users before we perform some activities in our program. *INPUT* command is used to get input from the user.
@@ -194,7 +206,27 @@ NEXT z
 
 ## Utility commands
 
-...
+### Left function
+
+`LEFT$` returns specific number of characters from left side to supplied string and returns the value. 
+
+Example:
+
+```
+PRINT LEFT$("hello", 4) 'prints hell
+
+PRINT LEFT$("welcome", 5) 'prints welco
+```
+
+### Right function
+
+`RIGHT$` returns specific number of characters from right side to supplied string and returns the value.
+
+Example:
+
+```
+PRINT RIGHT$("welcome", 4) 'prints come
+```
 
 ### String to ASCII code
 
