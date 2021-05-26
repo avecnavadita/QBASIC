@@ -204,6 +204,40 @@ FOR z = 1 TO 100
 NEXT z
 ```
 
+### GOTO statement
+
+The GOTO statement branches to a specific line number or to the first statement after a specified label. In the example below the GOTO statement braches to the instruction after the "label1" label until the value of variable "x" is equal to 5.
+
+Example:
+
+```
+start:
+
+PRINT "hi"
+
+GOTO start
+```
+
+### Random number generator
+
+RANDOMIZE initializes the random-number generator. RND returns a single-precision random number between 0 and 1. 
+
+The Microsoft Excel RND function returns a random number that is greater than or equal to 0 and less than 1. You can use the RND function in a formula to generate a random number within a range of values.
+
+Example:
+
+```
+RANDOMIZE TIMER
+
+FOR z = 1 TO 10
+    num = RND * 6
+
+    IF num >= 1 THEN
+        PRINT num; "="; INT(num)
+    END IF
+NEXT z
+```
+
 ## Utility commands
 
 ### Left function

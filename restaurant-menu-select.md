@@ -6,6 +6,7 @@ We use the following commands:
 - PRINT / INPUT 
 - IF .. ELSE .. ENDIF
 - GOTO (branching)
+- Case statement
 
 ```
 
