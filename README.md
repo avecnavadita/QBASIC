@@ -72,7 +72,7 @@ price!       '199.99
 
 ## Array 
 
-Array is a variable which stores different values of the same data type.
+Array is a variable which stores different values of the same data type. In array index starts at one.
 
 Example:
 
@@ -82,6 +82,14 @@ DIM person(3) AS STRING
 person(1) = "Prinsha"
 person(2) = "Navadita"
 person(3) = "Prabina"
+
+FOR x = 1 TO 3
+    rand! = RND * 3
+    y% = INT(rand!)
+    IF y% >= 1 THEN
+        PRINT y%, person(y%),
+    END IF
+NEXT x
 
 ```
 
