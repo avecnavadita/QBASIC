@@ -70,6 +70,21 @@ height%      '120
 price!       '199.99
 ```
 
+## Array 
+
+Array is a variable which stores different values of the same data type.
+
+Example:
+
+```
+DIM person(3) AS STRING
+
+person(1) = "Prinsha"
+person(2) = "Navadita"
+person(3) = "Prabina"
+
+```
+
 ## Commands
 
 Commands are instructions written in a program to do certain things. Often, they are also called as Statements. Since QBASIC is a high level language, those instructions are given using english language which we use in our day to day activities.
