@@ -72,7 +72,7 @@ price!       '199.99
 
 ## Array 
 
-Array is a variable which stores different values of the same data type.
+Array is a variable which stores different values of the same data type. In array index starts at one.
 
 Example:
 
@@ -82,6 +82,14 @@ DIM person(3) AS STRING
 person(1) = "Prinsha"
 person(2) = "Navadita"
 person(3) = "Prabina"
+
+FOR x = 1 TO 3
+    rand! = RND * 3
+    y% = INT(rand!)
+    IF y% >= 1 THEN
+        PRINT y%, person(y%),
+    END IF
+NEXT x
 
 ```
 
@@ -218,6 +226,42 @@ FOR z = 1 TO 100
     PRINT z;
 NEXT z
 ```
+
+## Select
+
+SELECT CASE is used to determine the program flow by comparing the value of a variable to specific CASE values.
+
+Example:
+
+SELECT CASE num
+
+    CASE 1
+        PRINT 1;
+        PRINT " - one"
+
+    CASE 2
+        PRINT 2;
+        PRINT " - Two"
+
+    CASE 3
+        PRINT 3;
+        PRINT " - three"
+
+    CASE 4
+        PRINT 4;
+        PRINT " - four"
+
+    CASE 5
+        PRINT 5;
+        PRINT " - five"
+
+END SELECT
+
+## End Statement
+
+It is used at the end of the QBASIC program to terminate it.
+
+Syntax : End
 
 ### GOTO statement
 
