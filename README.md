@@ -227,6 +227,36 @@ FOR z = 1 TO 100
 NEXT z
 ```
 
+## Select
+
+SELECT CASE is used to determine the program flow by comparing the value of a variable to specific CASE values.
+
+Example:
+
+SELECT CASE num
+
+    CASE 1
+        PRINT 1;
+        PRINT " - one"
+
+    CASE 2
+        PRINT 2;
+        PRINT " - Two"
+
+    CASE 3
+        PRINT 3;
+        PRINT " - three"
+
+    CASE 4
+        PRINT 4;
+        PRINT " - four"
+
+    CASE 5
+        PRINT 5;
+        PRINT " - five"
+
+END SELECT
+
 ### GOTO statement
 
 The GOTO statement branches to a specific line number or to the first statement after a specified label. In the example below the GOTO statement braches to the instruction after the "label1" label until the value of variable "x" is equal to 5.
