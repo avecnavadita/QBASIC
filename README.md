@@ -284,7 +284,24 @@ Conditions are used in QBASIC to decide certain actions.
 
 ### Conditional operators
 
+Conditional operators means to choose between two or more sections of the program to execute the program.
+
+= , > , < , >= , <= are the examples of conditional operators.
+
 ### IF ELSE ENDIF
+
+The IF statement always asks a question (usually about the number in a variable.) If the answer is TRUE the true branch is executed. If the answer if FALSE the true branch goes to the `ELSE` statement. In both cases, the `IF ELSE` statement ends with the `ENDIF` statement.
+
+Example:
+
+```
+INPUT "1 or 2? ", n%
+IF n% = 1 OR 2 THEN
+  PRINT "Oh, ok"
+ELSE
+  PRINT "Number not found"
+END IF
+```
 
 ### SELECT
 
@@ -316,7 +333,27 @@ PRINT RIGHT$("welcome", 4) 'prints come
 
 ### UCASE$
 
+The `UCASE$` function converts all the strings to uppercase letters.
+
+Example:
+
+```
+Test$ = "ITS just FoR testing"
+PRINT Test$
+PRINT UCASE$(Test$)
+```
+
 ### LCASE$
+
+The `LCASE$` function converts all the strings to lowercase letters.
+
+Example:
+
+```
+Test$ = "ITS just FoR testing"
+PRINT Test$
+PRINT LCASE$(Test$)
+```
 
 ### String to ASCII code
 
