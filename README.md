@@ -221,23 +221,48 @@ NEXT z
 
 ### GOTO statement
 
-The GOTO statement branches to a specific line number or to the first statement after a specified label. In the example below the GOTO statement braches to the instruction after the "label1" label until the value of variable "x" is equal to 5.
+The `GOTO` statement branches to a specific line number or to the specified label (or bookmark).
+In the example below, the `GOTO` statement at the end branches the program to the beginning (after the "START" label).
 
 Example:
 
 ```
-start:
+START:
 
-PRINT "hi"
+PRINT "Please enter a number from 1 to 3 ONLY"
 
-GOTO start
+PRINT
+
+'INPUT "Please enter a number"; num%
+
+rand! = RND * 3
+num% = INT(rand!)
+
+IF num% = 1 THEN
+    PRINT "It's number 1, Not badd"
+
+ELSEIF num% = 2 THEN
+    PRINT "Ooo, Nice shot anyway ;)"
+
+ELSEIF num% = 3 THEN
+    PRINT "It's number three"
+
+ELSE
+    PRINT "This number is not available, sorryyy :/"
+
+END IF
+
+INPUT "Press enter key to continue"; n
+CLS
+
+GOTO START
 ```
 
 ### Random number generator
 
-RANDOMIZE initializes the random-number generator. RND returns a single-precision random number between 0 and 1. 
+`RANDOMIZE TIMER` initializes the random-number generator. `RND` returns a single-precision random number between 0 and 1. 
 
-The Microsoft Excel RND function returns a random number that is greater than or equal to 0 and less than 1. You can use the RND function in a formula to generate a random number within a range of values.
+The `RND * 6` statement returns a random number that is greater than or equal to 0 and less than 6.   
 
 Example:
 
@@ -252,6 +277,18 @@ FOR z = 1 TO 10
     END IF
 NEXT z
 ```
+
+## Conditions
+
+Conditions are used in QBASIC to decide certain actions.
+
+### Conditional operators
+
+### IF ELSE ENDIF
+
+### SELECT
+
+### Joining multiple operators (AND / OR)
 
 ## Utility commands
 
@@ -276,6 +313,10 @@ Example:
 ```
 PRINT RIGHT$("welcome", 4) 'prints come
 ```
+
+### UCASE$
+
+### LCASE$
 
 ### String to ASCII code
 
