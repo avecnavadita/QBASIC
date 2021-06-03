@@ -257,6 +257,12 @@ SELECT CASE num
 
 END SELECT
 
+## End Statement
+
+It is used at the end of the QBASIC program to terminate it.
+
+Syntax : End
+
 ### GOTO statement
 
 The `GOTO` statement branches to a specific line number or to the specified label (or bookmark).
