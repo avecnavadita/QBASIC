@@ -1,3 +1,6 @@
+# Palindrome
+
+```
 REM "Write a program to check if a given string is PALINDROME"
 
 'ask for input
@@ -12,29 +15,6 @@ backward$ = reverse$(without_space$)
 PRINT backward$
 
 CALL print_result(without_space$, backward$)
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 
@@ -75,4 +55,4 @@ FUNCTION strip_space$ (word$)
 
     strip_space$ = temp$
 END FUNCTION
-
+```
