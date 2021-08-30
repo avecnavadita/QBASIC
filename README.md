@@ -145,12 +145,14 @@ Example: The following program only prints *I see you* since *Peek - a - Boo* is
 
 ```
 PRINT "Peek - a - Boo"
-CLS                     ' clears everything before this line
+CLS                   'Clears everything before this line
 PRINT "I see you"
 ```
 
 Output : 
+```
 I see you
+```
 
 ### Format output
 
@@ -185,9 +187,10 @@ PRINT "World"
 ```
 
 Output :
-
+```
 Hello
 World
+```
 
 - Space or tab
 
