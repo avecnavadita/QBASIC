@@ -201,6 +201,59 @@ FOR I = 1 TO L STEP 1
 NEXT I
 ```
 
+### SWAP Statement
+
+Exchanges the values of two variables.
+
+```
+a% = 1: b% = 2
+PRINT "Before: "; a%, b%
+SWAP a%, b%
+PRINT "After: "; a%, b%
+```
+
+Shuffle a deck of cards
+
+```
+
+DIM deck(1 TO 54)
+CONST ShuffleTimes = 10
+
+FOR L = 1 TO 54
+    deck(L) = L
+NEXT
+
+CALL shuffle(deck())
+
+FOR L = 1 TO 54
+    PRINT deck(L);
+NEXT
+
+END
+
+SUB shuffle (deck())
+    FOR L = 1 TO ShuffleTimes
+        X = INT(RND * 54 + 1)
+        Y = INT(RND * 54 + 1)
+        SWAP deck(X), deck(Y)
+    NEXT
+END SUB
+```
+
+### Random number
+
+RANDOMIZE initializes the random-number generator. 
+RND returns a single-precision random number between 0 and 1.
+
+```
+RANDOMIZE TIMER
+x% = INT(RND * 6) + 1
+y% = INT(RND * 6) + 1
+PRINT "Roll of two dice: die 1 ="; x%; "and die 2 ="; y%
+```
+
+
+
 ### Input
 
 Sometimes we need to ask for certain input from users before we perform some activities in our program. *INPUT* command is used to get input from the user.
